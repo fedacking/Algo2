@@ -15,4 +15,5 @@ notifications:
       - niconu10.uba@gmail.com
       - mikael.kozak@gmail.com
       - nicolasgaido1@gmail.com
+      - fedacking@gmail.com
     on_failure: always
