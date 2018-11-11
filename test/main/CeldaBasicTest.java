@@ -15,4 +15,12 @@ public class CeldaBasicTest {
     	assertEquals(1,celdaTest.getX(), "Getter y Setter test de X");
     	assertEquals(1,celdaTest.getY(), "Getter y Setter test de Y");
     }
+    
+    public void celdaAgregarObjetoPosicionable() {
+    	Celda celdaTest = new Celda(1,1);
+    	Unidad unidadTest = new Espadachin(celdaTest);
+
+    	assertEquals(1,celdaTest.getX(), "Getter y Setter test de X");
+    	assertEquals(1,celdaTest.getY(), "Getter y Setter test de Y");
+    }
 }
