@@ -14,5 +14,11 @@ public abstract class Unidad {
 	private void setPosicion(Celda posicion) {
 		this.posicion = posicion;
 	}
-
+	
+	protected int getX() {
+		return posicion.getX();
+	}
+	protected int getY() {
+		return posicion.getY();
+	}
 }

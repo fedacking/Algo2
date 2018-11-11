@@ -20,7 +20,7 @@ public class CeldaBasicTest {
     	Celda celdaTest = new Celda(1,1);
     	Unidad unidadTest = new Espadachin(celdaTest);
 
-    	assertEquals(1,celdaTest.getX(), "Getter y Setter test de X");
-    	assertEquals(1,celdaTest.getY(), "Getter y Setter test de Y");
+    	assertEquals(1,unidadTest.getX(), "Getter y Setter test de X");
+    	assertEquals(1,unidadTest.getY(), "Getter y Setter test de Y");
     }
 }
